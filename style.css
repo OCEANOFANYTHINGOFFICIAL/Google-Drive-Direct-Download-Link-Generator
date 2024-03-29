@@ -1,0 +1,15 @@
+#mainpanel {
+  margin-top: 70px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #ff3b30;
+  border-color: #ff3b30;
+}
+.panel-primary {
+  border-color: #ff3b30;
+}

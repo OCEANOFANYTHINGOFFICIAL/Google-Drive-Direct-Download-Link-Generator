@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Google Drive Direct Download Link Generator">
+  <meta name="author" content="Ocean of Anything">
+  <meta name="keywords" content="Google Drive Direct Download Link Generator">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="3 month">
+  <meta name="rating" content="general">
+  <meta name="distribution" content="global">
+  <meta name="language" content="en">
+  <meta name="generator" content="Ocean of Anything">
+  <meta name="theme-color" content="#000000">
+  <meta name="msapplication-navbutton-color" content="#000000">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage" content="favicon.png">
+  <meta name="application-name" content="Google Drive Direct Download Link Generator">
+  <meta name="msapplication-tooltip" content="Google Drive Direct Download Link Generator">
+  <meta name="msapplication-starturl" content="index.html">
+  <meta name="msapplication-window" content="width=800;height=600">
+  <meta name="msapplication-task" content="name=Google Drive Direct Download Link Generator;action-uri=index.html;icon-uri=favicon.png">
+  <title>Google Drive Direct Download Link Generator</title>
+  <link rel='stylesheet' href='bootstrap.min.css'><link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+<div class="container">
+  <div class="panel panel-default panel-primary" id="mainpanel">
+    <div class="panel-heading">
+      <h1 class="panel-title">Google Drive Direct Download Link Generator</h1>
+    </div>
+    <div class="panel-body">
+      <form>
+        <div class="form-group">
+          <label for="sharelink">Paste Google Drive Link Here And Hit Enter</label>
+          <input type="text" class="form-control" id="sharelink" placeholder="https://drive.google.com/file/d/XX-X__XXXXX-XXXXXXXXXXXXXXXX/view?usp=sharing" autofocus="true">
+        </div>
+        <div class="form-group">
+          <label for="downloadlink">Direct Download link</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="downloadlink" readonly>
+            <span class="input-group-btn">
+        <button id="copylinkbtn" class="btn btn-danger" type="button" data-clipboard-target="#downloadlink" disabled>Copy Direct Link</button>
+      </span>
+          </div>
+        </div>
+      </form>
+      <br>
+      <br>
+      <br>
+      
+    </div>
+    <div class="panel-footer text-center">&copy; OCEAN OF ANYTHING</div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='jquery.min.js'></script>
+<script src='bootstrap.min.js'></script>
+<script src='clipboard.js'></script>
+<script src='bootstrap-notify.min.js'></script>
+<script  src="script.js"></script>
+
+</body>
+</html>
